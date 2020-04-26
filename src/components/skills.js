@@ -5,25 +5,17 @@ const data1 = [
     'C', 
     'HTML', 
     'SQL', 
-    'React JS', 
-    'React Native',
     'CSS',
-    'Electron JS',
-    'selenium',
-    'PWA',
     'Javascript(Programming Language)',
 ];
 
 const data2 = [
     'Gatsby JS',
-    'Flask',
     'Material UI',
     'Express',
     'Github',
-    'Redux',
     'unit testing',
-    'Integration testing',
-    'Python(Programming Language)', 
+    'Integration testing', 
 ];
 
 export default function Skills(){

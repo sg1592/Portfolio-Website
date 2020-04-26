@@ -9,7 +9,7 @@ import Experience from "../components/experience"
 import Education from "../components/education"
 import Certification from "../components/certifications"
 import Skills from "../components/skills"
-import Accomplishment from "../components/accomplishments"
+//import Accomplishment from "../components/accomplishments"
 import Contact from "../components/contact"
 
 const IndexPage = () => (
@@ -22,7 +22,7 @@ const IndexPage = () => (
     <Education />
     <Certification />
     <Skills />
-    <Accomplishment />
+    
     <Contact />
   </Layout>
 )

@@ -1,5 +1,5 @@
 import React from 'react'
-import profile from "../images/profile1.png"
+import profile from "../images/profile1.jpg"
 // import Img from "gatsby-image"
 // import {
 //     useStaticQuery,
@@ -21,9 +21,9 @@ export default function Profile(){
     return (
         <div className="profile">
             <img src={profile} alt="profile" className="profile-img" />
-            <p className="title">Name</p>
-            <p className="subtitle">Designation</p>
-            <p className="address">Location</p>
+            <p className="title">Sunil Pundlik Gode</p>
+            <p className="subtitle">Web Developer</p>
+            <p className="address">Ixia Solutions</p>
         </div>
     );
 }

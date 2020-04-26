@@ -6,7 +6,7 @@ export default function About(){
             <p className="title">About</p>
             <hr />
             <p className="c-year">I caught fire coding.</p>
-            <p className="c-year">I always want to become as software developer. I like listening to music and playing carrom.</p>
+            <p className="c-year">I always want to become as software developer. I like listening to music,teaching and playing cricket.</p>
         </div>
     );
 }

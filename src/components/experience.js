@@ -1,13 +1,13 @@
 import React from "react"
-import udgama from "../images/profile.png"
+import udgama from "../images/workexp.png"
 
 const data = [
     {
         logo: udgama,
-        profile: "Full Stack Developer",
-        company: "Udgama Software Pvt. Ltd.",
-        year: "Aug 2018 - Present",
-        location: "Thane, Maharashtra, India"
+        profile: "Web Developer",
+        company: "Ixia Solutions Pvt. Ltd.",
+        year: "Nov 2018 - Present",
+        location: "Ghansoli(New Mumbai), Maharashtra, India"
     }
 ];
 
