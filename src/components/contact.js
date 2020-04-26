@@ -1,9 +1,9 @@
 import React from "react"
-import udgama from "../images/contact.png"
+import image from "../images/contact.png"
 
 const data = [
     {
-        logo: udgama,
+        logo: image,
         email: "Email:-sunil.gode007@gmail.com",
         mobile: "Mobile:-7972520834",
         git: "Github:-http://github.com/sg1592",
