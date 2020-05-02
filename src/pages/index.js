@@ -11,6 +11,7 @@ import Certification from "../components/certifications"
 import Skills from "../components/skills"
 //import Accomplishment from "../components/accomplishments"
 import Contact from "../components/contact"
+ 
 
 const IndexPage = () => (
   <Layout>

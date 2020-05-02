@@ -715,7 +715,14 @@ header {
   margin-right: 20px;
   margin-top: 10px;
 }
-
+.label {
+  text-align: right;
+}
+.field {
+  text-decoration: none;
+  color: grey;
+  margin-left: 5px;
+}
 
 
 @media only screen and (max-width: 680px) {

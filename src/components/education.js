@@ -1,9 +1,9 @@
 import React from "react"
-import udgama from "../images/educationlogo.png"
+import image from "../images/educationlogo.png"
 
 const data = [
     {
-        logo: udgama,
+        logo: image,
         HigherEducation: "BE Computer(First Class)",
         CollegeName: "SSJCET Asangaon.",
         HSC: "HSC Science(First Class)",

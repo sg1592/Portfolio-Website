@@ -1,9 +1,9 @@
 import React from "react"
-import udgama from "../images/certification.jpg"
+import image from "../images/certification.jpg"
 
 const data = [
     {
-        logo: udgama,
+        logo: image,
         abc: "Technical Training (Core Java, Oracle, MySql)",
         location: " Mumbai, Maharashtra, India"
     }

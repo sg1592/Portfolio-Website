@@ -1,9 +1,9 @@
 import React from "react"
-import udgama from "../images/workexp.png"
+import image from "../images/workexp.png"
 
 const data = [
     {
-        logo: udgama,
+        logo: image,
         profile: "Web Developer",
         company: "Ixia Solutions Pvt. Ltd.",
         year: "Nov 2018 - Present",
