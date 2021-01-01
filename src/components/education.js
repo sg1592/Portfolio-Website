@@ -22,8 +22,9 @@ export default function Education(){
             }}>
             <p className="title">Education</p>
             <button   className="toggle-btn" onClick={() => setOpen(!open)}>More</button>
-            </div>
             <hr />
+            </div>
+            
             <div  className={open ? "" : "close"}>
             {
                 data.map((d, i) => (

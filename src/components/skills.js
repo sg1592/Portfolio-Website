@@ -27,8 +27,9 @@ export default function Skills(){
             }}>
             <p className="title">Skills & Endorsements</p>
             <button   className="toggle-btn" onClick={() => setOpen(!open)}>More</button>
-            </div>
             <hr />
+            </div>
+           
             <div  className={open ? "" : "close"}>
             <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-around', width: '100%', height: 'auto'}}>
                 <div style={{ width: '45%', height: 'auto'}}>

@@ -20,8 +20,9 @@ export default function Certification(){
         }}>
             <p className="title">Certifications</p>
             <button   className="toggle-btn" onClick={() => setOpen(!open)}>More</button>
-            </div>
             <hr />
+            </div>
+            
             <div  className={open ? "" : "close"}>
             {
                 data.map((d, i) => (

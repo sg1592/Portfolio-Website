@@ -11,8 +11,9 @@ export default function Contact(){
             }}>
             <p className="title">Contact Me</p>
             <button   className="toggle-btn" onClick={() => setOpen(!open)}>More</button>
-            </div>
             <hr />
+            </div>
+            
             <div  className={open ? "" : "close"}>
             <Grid container spacing={1}>
                 <Grid item xs={4} sm={4} md={2} className="label">Email:- </Grid>
