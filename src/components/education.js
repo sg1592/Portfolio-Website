@@ -1,4 +1,4 @@
-import React from "react"
+import React, {useState} from "react"
 import image from "../images/educationlogo.png"
 
 const data = [
@@ -13,10 +13,18 @@ const data = [
 ];
 
 export default function Education(){
+    const [open, setOpen] = useState(false)
     return (
         <div className="education">
+            <div style={{
+                display: "flex",
+                justifyContent: "space-between",
+            }}>
             <p className="title">Education</p>
+            <button   className="toggle-btn" onClick={() => setOpen(!open)}>More</button>
+            </div>
             <hr />
+            <div  className={open ? "" : "close"}>
             {
                 data.map((d, i) => (
                     <div key={i} className="company">
@@ -33,6 +41,7 @@ export default function Education(){
                     </div>
                 ))
             }
+            </div>
         </div>
     );
 }

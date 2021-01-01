@@ -668,6 +668,28 @@ header {
   line-height: 0.5rem;
   font-size: 0.9rem;
 }
+
+.close{
+  display: none;
+}
+
+.toggle-btn{
+  display: flex;
+  height: inherit;
+  font-size: 17px;
+  width: 80px;
+  align-items: center;
+  justify-content: center;
+  background: url("/src/images/Dropdown.png") no-repeat #595b5f 50%;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+
+
+
+
+
 .contact,
 .accomplishments,
 .skills,

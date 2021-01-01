@@ -1,11 +1,19 @@
-import React from "react"
+import React, {useState} from "react"
 import { Grid } from "@material-ui/core"
 
 export default function Contact(){
+    const [open, setOpen] = useState(false)
     return (
         <div className="contact">
+            <div style={{
+                display: "flex",
+                justifyContent: "space-between",
+            }}>
             <p className="title">Contact Me</p>
+            <button   className="toggle-btn" onClick={() => setOpen(!open)}>More</button>
+            </div>
             <hr />
+            <div  className={open ? "" : "close"}>
             <Grid container spacing={1}>
                 <Grid item xs={4} sm={4} md={2} className="label">Email:- </Grid>
                 <Grid item xs={8} sm={8} md={10}><a className="field" target="blank" href="mailto:sunil.gode007@gmail.com">sunil.gode007@gmail.com</a></Grid>
@@ -16,6 +24,7 @@ export default function Contact(){
                 <Grid item xs={4} sm={4} md={2} style={{ textAlign: 'right'}}>LinkedIn:-</Grid>
                 <Grid item xs={8} sm={8} md={10}><a style={{ textDecoration: 'none', color: 'grey', marginLeft: '5px'}} target="blank" href="https://www.linkedin.com/in/sunil-gode-736a3b1a6">https://www.linkedin.com/in/sunil-gode-736a3b1a6</a></Grid>
             </Grid>
+            </div>
        </div>
     );
 }

@@ -1,4 +1,4 @@
-import React from "react"
+import React, {useState} from "react"
 import image from "../images/certification.jpg"
 
 const data = [
@@ -10,10 +10,19 @@ const data = [
 ];
 
 export default function Certification(){
+    const [open, setOpen] = useState(false)
     return (
+        
         <div className="certification">
+            <div style={{
+            display: "flex",
+            justifyContent: "space-between",
+        }}>
             <p className="title">Certifications</p>
+            <button   className="toggle-btn" onClick={() => setOpen(!open)}>More</button>
+            </div>
             <hr />
+            <div  className={open ? "" : "close"}>
             {
                 data.map((d, i) => (
                     <div key={i} className="company">
@@ -27,6 +36,7 @@ export default function Certification(){
                     </div>
                 ))
             }
+            </div>
         </div>
     );
 }
