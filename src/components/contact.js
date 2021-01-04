@@ -10,11 +10,12 @@ export default function Contact(){
                 justifyContent: "space-between",
             }}>
             <p className="title">Contact Me</p>
-            <button   className="toggle-btn" onClick={() => setOpen(!open)}>More</button>
-            <hr />
+            <span   className="text" onClick={() => setOpen(!open)}>More</span>
+            
             </div>
             
             <div  className={open ? "" : "close"}>
+            <hr />
             <Grid container spacing={1}>
                 <Grid item xs={4} sm={4} md={2} className="label">Email:- </Grid>
                 <Grid item xs={8} sm={8} md={10}><a className="field" target="blank" href="mailto:sunil.gode007@gmail.com">sunil.gode007@gmail.com</a></Grid>

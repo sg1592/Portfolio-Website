@@ -21,11 +21,12 @@ export default function Education(){
                 justifyContent: "space-between",
             }}>
             <p className="title">Education</p>
-            <button   className="toggle-btn" onClick={() => setOpen(!open)}>More</button>
-            <hr />
+            <span   className="text" onClick={() => setOpen(!open)}>More</span>
+            
             </div>
             
             <div  className={open ? "" : "close"}>
+            <hr />
             {
                 data.map((d, i) => (
                     <div key={i} className="company">

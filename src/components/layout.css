@@ -673,16 +673,12 @@ header {
   display: none;
 }
 
-.toggle-btn{
-  display: flex;
-  height: inherit;
-  font-size: 17px;
-  width: 80px;
-  align-items: center;
-  justify-content: center;
-  background: url("/src/images/Dropdown.png") no-repeat #595b5f 50%;
-  border-radius: 4px;
+.text{  
+  font-size: 20px;   
   cursor: pointer;
+  margin: -7px 0px 0px 0px;
+  
+
   
 }
 

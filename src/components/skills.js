@@ -26,11 +26,12 @@ export default function Skills(){
                 justifyContent: "space-between",
             }}>
             <p className="title">Skills & Endorsements</p>
-            <button   className="toggle-btn" onClick={() => setOpen(!open)}>More</button>
-            <hr />
+            <span   className="toggle-btn" onClick={() => setOpen(!open)}>More</span>
+            
             </div>
            
             <div  className={open ? "" : "close"}>
+            <hr />
             <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-around', width: '100%', height: 'auto'}}>
                 <div style={{ width: '45%', height: 'auto'}}>
                     {

@@ -10,11 +10,12 @@ export default function About(){
                 justifyContent: "space-between",
             }}>
             <p className="title">About</p>
-            <button   className="toggle-btn" onClick={() => setOpen(!open)}>More</button>
-            <hr />
+            <span  className="text"  onClick={() => setOpen(!open)}>More</span>
+            
             </div>
             
             <div  className={open ? "" : "close"}>
+            <hr />
             <p className="c-year">I caught fire coding.</p>
             <p className="c-year">I always want to become as software developer. I like listening to music,teaching and playing cricket.</p>
             </div>
