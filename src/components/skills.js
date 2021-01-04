@@ -26,7 +26,7 @@ export default function Skills(){
                 justifyContent: "space-between",
             }}>
             <p className="title">Skills & Endorsements</p>
-            <span   className="toggle-btn" onClick={() => setOpen(!open)}>More</span>
+            <span   className="text" onClick={() => setOpen(!open)}>More</span>
             
             </div>
            
