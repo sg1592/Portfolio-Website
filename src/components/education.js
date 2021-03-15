@@ -21,7 +21,7 @@ export default function Education(){
                 justifyContent: "space-between",
             }}>
             <p className="title">Education</p>
-            <span   className="text" onClick={() => setOpen(!open)}>More</span>
+            <span   className="text" onClick={() => setOpen(!open)}><button class="btn"><i class="arrow down"></i></button></span>
             
             </div>
             

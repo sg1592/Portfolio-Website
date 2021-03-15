@@ -10,7 +10,7 @@ export default function About(){
                 justifyContent: "space-between",
             }}>
             <p className="title">About</p>
-            <span  className="text"  onClick={() => setOpen(!open)}>More</span>
+            <span  className="text"  onClick={() => setOpen(!open)}><button class="btn"><i class="arrow down"></i></button></span>
             
             </div>
             

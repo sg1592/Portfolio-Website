@@ -19,7 +19,7 @@ export default function Certification(){
             justifyContent: "space-between",
         }}>
             <p className="title">Certifications</p>
-            <span   className="text" onClick={() => setOpen(!open)}>More</span>
+            <span   className="text" onClick={() => setOpen(!open)}><button class="btn"><i class="arrow down"></i></button></span>
            
             </div>
             

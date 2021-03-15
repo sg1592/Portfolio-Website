@@ -625,8 +625,13 @@ header {
   height: 200px;
   margin: 0px auto;
   /* background: #2C3E50; */
-  background: linear-gradient(to bottom right, #f1948a, #dc7633);
+   background: linear-gradient(to bottom right, #f1948a, #dc7633); 
+  /* background: url('../images/paver.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: absolute; */
   border-radius: 10px 10px 0px 0px;
+  
 }
 
 .profile {
@@ -678,13 +683,32 @@ header {
   cursor: pointer;
   margin: -7px 0px 0px 0px;
   
+}
+.text:hover{
+  color: rgb(121, 91, 7);
+}
 
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
   
 }
 
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
 
+.btn{
+  width:40px;
+  background-color: #ff9800;
+}
 
-
+.btn:hover{
+  background: #e68a00;
+}
 
 .contact,
 .accomplishments,

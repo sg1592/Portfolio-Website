@@ -20,7 +20,7 @@ export default function Experience(){
                 justifyContent: "space-between",
             }}>
             <p className="title">Experience</p>
-            <span className="text" onClick={() => setOpen(!open)}>More</span>
+            <span className="text" onClick={() => setOpen(!open)}><button class="btn"><i class="arrow down"></i></button></span>
            
             </div>
             

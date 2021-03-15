@@ -4,13 +4,13 @@ import { Grid } from "@material-ui/core"
 export default function Contact(){
     const [open, setOpen] = useState(false)
     return (
-        <div className="contact">
+        <div  className="contact">
             <div style={{
                 display: "flex",
                 justifyContent: "space-between",
             }}>
             <p className="title">Contact Me</p>
-            <span   className="text" onClick={() => setOpen(!open)}>More</span>
+            <span   className="text" onClick={() => setOpen(!open)}><button class="btn"><i class="arrow down"></i></button></span>
             
             </div>
             
