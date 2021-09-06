@@ -7,11 +7,12 @@ import Header from "../components/header"
 import About from "../components/about"
 import Experience from "../components/experience"
 import Education from "../components/education"
-import Certification from "../components/certifications"
+// import Certification from "../components/certifications"
+import Projects from "../components/projects" 
 import Skills from "../components/skills"
 //import Accomplishment from "../components/accomplishments"
 import Contact from "../components/contact"
- 
+
 
 const IndexPage = () => (
   <Layout>
@@ -21,7 +22,8 @@ const IndexPage = () => (
     <About />
     <Experience />
     <Education />
-    <Certification />
+   
+    <Projects />
     <Skills />
     
     <Contact />

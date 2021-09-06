@@ -422,7 +422,13 @@ table {
   line-height: 1.45rem;
   border-collapse: collapse;
   width: 100%;
+  border: 2px solid black;
 }
+
+tr{
+  border: 2px solid black;
+}
+
 fieldset {
   margin-left: 0;
   margin-right: 0;
@@ -757,6 +763,16 @@ header {
   margin-right: 20px;
   margin-top: 10px;
 }
+
+.v-top{
+  vertical-align: top;
+  font-weight: bold;
+}
+
+.web{
+  margin-left: 135px;
+}
+
 .label {
   text-align: right;
 }

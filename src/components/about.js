@@ -17,7 +17,7 @@ export default function About(){
             <div  className={open ? "" : "close"}>
             <hr />
             <p className="c-year">I caught fire coding.</p>
-            <p className="c-year">I always want to become as software developer. I like listening to music,teaching and playing cricket.</p>
+            <p className="c-year">Seeking a challenging and rewarding position as Software Developer, with a strong will to prosper in any assigned duties. Passion to quickly learn adjusts to new environments and technologies.</p>
             </div>
         </div>
         
