@@ -3,9 +3,10 @@ import React, {useState} from "react"
 const data1 = [
     'JAVA', 
     'C', 
-    'HTML', 
+    'HTML5', 
     'SQL', 
-    'CSS',
+    'CSS3',
+    'Bootstrap',
     
 ];
 
@@ -14,6 +15,7 @@ const data2 = [
     'Gatsby JS',
     'Material UI',
     'Github',
+    
     'unit testing',
 ];
 
