@@ -423,7 +423,10 @@ table {
   border-collapse: collapse;
   width: 100%;
   border: 2px solid black;
+  
 }
+
+
 
 tr{
   border: 2px solid black;
@@ -640,6 +643,11 @@ header {
   
 }
 
+.order-l{
+  font-size: 25px;
+    margin-left: -14px;
+}
+
 .profile {
   padding-top: 120px;
   padding-left: 70px;
@@ -823,7 +831,8 @@ header {
   .certification,
   .education,
   .experience,
-  .about {
+  .about
+   {
     margin: 10px 0px;
     padding: 20px 20px;
     width: 100%;
@@ -831,4 +840,6 @@ header {
     box-shadow: 0px 0px 0px 0.5px rgb(0, 0, 0, 0.1);
     color: #641E16;
   }
+
+  
 }
